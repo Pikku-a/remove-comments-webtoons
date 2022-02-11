@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Remove webtoon comments",
-  "version": "1.0",
+  "version": "2.0",
 
   "description": "Removes comments from webtoons.com",
 
@@ -14,7 +14,35 @@
     {
       "matches": ["*://*.webtoons.com/*"],
       "js": ["remove-comments.js"]
-    }
+    },
+	{
+     "matches": ["*://*.webtoons.com/en/challenge*"],
+      "js": ["remove-comments-canvas.js"]
+    },
+	{
+      "matches": ["*://*.webtoons.com/zh-hant/challenge*"],
+      "js": ["remove-comments-canvas.js"]
+	},
+	{
+      "matches": ["*://*.webtoons.com/th/challenge*"],
+      "js": ["remove-comments-canvas.js"]
+	},
+	{
+     "matches": ["*://*.webtoons.com/id/challenge*"],
+      "js": ["remove-comments-canvas.js"]
+	},
+	{
+     "matches": ["*://*.webtoons.com/es/challenge*"],
+      "js": ["remove-comments-canvas.js"]
+	},
+	{
+     "matches": ["*://*.webtoons.com/fr/challenge*"],
+      "js": ["remove-comments-canvas.js"]
+	},
+	{
+     "matches": ["*://*.webtoons.com/de/challenge*"],
+      "js": ["remove-comments-canvas.js"]
+	}
   ]
 
 }
