@@ -1,7 +1,7 @@
 # Remove comments webtoons
 ## Extension for firefox
 
-Removes comments & recommendations from the bottom of the comic from webtoons.com.
+Removes comments & some recommendations from the bottom of the comic from webtoons.com.
 
 This add-on:
 - Disables comments
