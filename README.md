@@ -1,3 +1,5 @@
+As of 2024, it doesn't work anymore and I don't have plans to update it.
+-----
 # Remove comments webtoons
 ## Extension for firefox
 
